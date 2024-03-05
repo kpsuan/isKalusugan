@@ -1,0 +1,91 @@
+.mainContent {
+  width: 100%;
+  padding: 2rem;
+  overflow: auto;
+}
+.mainContent .titlePE {
+  display: flex;
+  color: #31A1AD;
+  flex-direction: column;
+  height: 50vh;
+  padding: 2rem;
+  margin-top: 100px;
+  overflow: auto;
+  background-color: var(--white);
+  gap: 1rem;
+}
+.mainContent .titlePE .lighter-font {
+  font-weight: lighter;
+}
+.mainContent .titlePE .text2 {
+  color: var(--black);
+  font-size: 22px;
+  align-items: center;
+  font-weight: 600;
+  justify-content: center;
+}
+.mainContent .titlePE .choicePE {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 2rem;
+}
+.mainContent .titlePE .choicePE .choice1 {
+  width: 300px;
+  height: 150px;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 67.11px 109.06px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), background-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.mainContent .titlePE .choicePE .choice1 .label-PE {
+  padding-top: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-weight: 600;
+}
+.mainContent .titlePE .choicePE .choice1 .label-PE .small-desc {
+  padding-top: 5px;
+  font-size: 15px;
+  font-weight: 200;
+}
+.mainContent .titlePE .choicePE .choice1:hover {
+  transform: scale(1.05);
+  background-color: #89F0FA;
+  transition-delay: 0.1s;
+  cursor: pointer;
+}
+.mainContent .titlePE .choicePE .choice2 {
+  width: 300px;
+  height: 150px;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 67.11px 109.06px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), background-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.mainContent .titlePE .choicePE .choice2 .label-PE {
+  padding-top: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-weight: 600;
+}
+.mainContent .titlePE .choicePE .choice2 .label-PE .small-desc {
+  padding-top: 5px;
+  font-size: 15px;
+  font-weight: 200;
+}
+.mainContent .titlePE .choicePE .choice2:hover {
+  transform: scale(1.05);
+  background-color: #89F0FA;
+  transition-delay: 0.1s;
+  cursor: pointer;
+}/*# sourceMappingURL=annual.css.map */
